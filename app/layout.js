@@ -10,7 +10,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  getDocuments()
+  const allDocuments = getDocuments()
+
+
+
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
