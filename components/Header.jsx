@@ -12,7 +12,7 @@ const Header = ({docs}) => {
                     <Search />
                 </div>
             </div>
-            <Sidebar />
+            <Sidebar docs={docs} />
         </header>
     );
 };
