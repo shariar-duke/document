@@ -1,6 +1,6 @@
-const page = ({ params: { subContentId } }) => {
+const SubContentPage = ({ params: { subContentId } }) => {
     return <div>{subContentId}</div>;
   };
   
-  export default page;
+  export default SubContentPage;
   

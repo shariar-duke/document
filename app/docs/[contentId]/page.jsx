@@ -1,5 +1,5 @@
-const page = ({ params: { contentId } }) => {
+const ContentPage = ({ params: { contentId } }) => {
   return <div>{contentId}</div>;
 };
 
-export default page;
+export default ContentPage;
