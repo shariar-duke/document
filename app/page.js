@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Landing from "@/components/Landing";
 export default function Home() {
-  return <div>I have renamed this</div>;
+  return <Landing/>
 }
