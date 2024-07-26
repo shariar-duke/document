@@ -30,7 +30,7 @@ export default function Sidebar({docs}) {
                                 {rootNode.title}
                             </span>
                         </Link>
-                        {/* {nonRoots[rootNode.id] && (
+                        {nonRoots[rootNode.id] && (
                             <ul
                                 role="list"
                                 className="border-l border-transparent"
@@ -50,7 +50,7 @@ export default function Sidebar({docs}) {
                                     )
                                 )}
                             </ul>
-                        )} */}
+                        )}
                     </li>
                 ))}
             </ul>
